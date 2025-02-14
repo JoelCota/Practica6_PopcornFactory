@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/lightblack">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/popcorn"
+        android:paddingRight="50dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/desc_main"
+        android:textAlignment="viewStart"
+        android:textColor="@color/lightgray"
+        android:textSize="18sp"
+        android:layout_marginTop="25dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="237dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/yellow"
+        android:text="GET ME IN!"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        />
+
+</LinearLayout>

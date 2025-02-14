@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tittle">20sp</dimen>
+    <dimen name="text">15sp</dimen>
+    <dimen name="tittleDesc">25sp</dimen>
+    <dimen name="textDesc">14sp</dimen>
+</resources>
