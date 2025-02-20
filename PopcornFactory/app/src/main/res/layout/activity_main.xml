@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="@color/lightblack">
+    android:background="@color/almostblack">
 
 
     <ImageView
@@ -15,18 +15,16 @@
         android:layout_height="430dp"
         android:scaleType="centerCrop"
         android:layout_gravity="center_vertical"
-        android:src="@drawable/popcorn"
-        android:paddingRight="50dp"/>
+        android:src="@drawable/popcorn"/>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:padding="16dp"
-        android:text="@string/desc_main"
+        android:text="@string/welcome_desc"
         android:textAlignment="viewStart"
-        android:textColor="@color/lightgray"
+        android:textColor="@color/babygray"
         android:textSize="18sp"
         android:layout_marginTop="25dp"
         />
@@ -35,13 +33,13 @@
         android:id="@+id/button"
         android:layout_width="237dp"
         android:layout_height="48dp"
-        android:backgroundTint="@color/yellow"
-        android:text="GET ME IN!"
-        android:textColor="@color/black"
+        android:text="@string/start_button"
+        android:textColor="@color/almostblack"
+        android:background="@drawable/round_button"
         android:textSize="18sp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="16dp"
         />
 
 </LinearLayout>

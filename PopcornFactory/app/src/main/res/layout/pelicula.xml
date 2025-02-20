@@ -4,26 +4,27 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="7dp"
-    android:background="@color/lightblack">
+    android:background="@color/almostblack">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingBottom="15dp">
 
         <ImageView
             android:id="@+id/iv_pelicula"
             android:layout_width="143dp"
             android:layout_height="115dp"
             android:layout_gravity="center"
-            android:src="@drawable/bones"/>
+            android:src="@drawable/bigheroseis"/>
 
         <TextView
             android:id="@+id/tv_nombre_pelicula"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="BONES"
+            android:text="BIG HERO"
             android:gravity="center"
-            android:textColor="@color/yellow"
+            android:textColor="@color/mustard"
             android:textSize="18sp"/>
 
     </LinearLayout>
